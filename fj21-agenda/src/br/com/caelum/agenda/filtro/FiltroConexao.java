@@ -38,10 +38,6 @@ public class FiltroConexao implements Filter {
 			connection.close();
 			
 			
-			
-			
-			
-			
 		} catch (SQLException e) {
 			throw new ServletException(e);
 		}
